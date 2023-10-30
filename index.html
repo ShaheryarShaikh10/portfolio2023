@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shaheryar Shaikh - Resume Portfolio</title>
+    <!-- Include Bootstrap CSS and JavaScript libraries -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mui/material@5.3.3/dist/material.umd.production.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Include FontAwesome for the icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f3f5f9;
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            scrollbar-color: #007bff #f8f8f8;
+        }
+
+        body::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: #f8f8f8;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #007bff;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .navbar a {
+            color: #fff;
+        }
+
+        .navbar-toggler-icon-custom {
+            color: #fff; /* Set the color of the icon */
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            animation: fade-in 1s ease-in-out;
+        }
+
+        .card {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .card-content {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /* Center the Contact button */
+        .center-button {
+            text-align: center;
+        }
+
+        /* Hover Scale Feature for Cards */
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Carousel Styling */
+        .carousel-inner {
+            text-align: center;
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            font-size: 2rem;
+        }
+        
+        /* Material-UI Card Styling */
+        .project-card {
+            margin: 20px;
+            transition: transform 0.5s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Shaheryar Shaikh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon navbar-toggler-icon-custom">
+                <i class="fas fa-bars"></i> <!-- Add FontAwesome icon here -->
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="about-me">
+            <div class="card">
+                <h2 class="card-title">About Me</h2>
+                <p class="card-content">
+                    I am a passionate Software Engineer at iorta Technology Solutions, continuously seeking to learn new technologies and take on complex challenges. With expertise in multiple programming languages and databases, I specialize in developing high-quality software applications that provide exceptional value to end-users.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="experience">
+            <div class="card">
+                <h2 class="card-title">Experience</h2>
+                <p class="card-content">
+                    Throughout my career, I have excelled in creating robust and scalable applications using Node.js, Express JS, MongoDB, and Mongoose ODM. My proficiency in JavaScript allows me to tackle intricate problems and deliver innovative solutions. I have a solid track record of success, having worked on projects such as the Salesdrive Project and the Nissan project at TCS.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="education">
+            <div class="card">
+                <h2 class="card-title">Education</h2>
+                <p class="card-content">
+                    In 2021, I completed my Bachelor's degree in Computer Science from Mumbai University. This educational foundation has equipped me with a solid understanding of software engineering principles and best practices, enabling me to thrive in a dynamic and fast-paced industry.
+                </p>
+            </div>
+        </div>
+        <div class="section" id="skills">
+            <div class="card">
+                <h2 class="card-title">Skills</h2>
+                <p class="card-content">
+                    My technical skills encompass proficiency in the following:<br>
+                    Languages/Frameworks: Node.js, Python, HTML, CSS, JavaScript, Android, C#<br>
+                    Databases: MySQL, MongoDB, Oracle, Access DB
+                </p>
+            </div>
+        </div>
+        
+        <!-- Projects with Material-UI Cards and GitHub Repo Buttons -->
+        <div class="section" id="projects">
+            <h2 class="section-title">GitHub Projects</h2>
+            <div class="project-card">
+                <div class="card">
+                    <h2 class="card-title">YouBookk</h2>
+                    <p class="card-content">Social media web app with chatroom feature</p>
+                    <a href="https://github.com/shaheryarshaikh1011/youbookk" class="btn btn-primary" target="_blank">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card">
+                    <h2 class="card-title">Sentimental Analysis</h2>
+                    <p class="card-content">Python-based sentimental analysis using PyTesseract</p>
+                    <a href="https://github.com/shaheryarshaikh1011/Sentimental-analysis" class="btn btn-primary" target="_blank">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card">
+                    <h2 class="card-title">MiniMafiaWars</h2>
+                    <p class="card-content">Console JavaScript game based on Mafia Wars</p>
+                    <a href="https://github.com/shaheryarshaikh1011/MiniMafiaWars" class="btn btn-primary" target="_blank">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="section" id="contact">
+            <div class="card">
+                <h2 class="card-title">Contact</h2>
+                <p class="card-content">
+                    If you would like to connect or discuss potential collaborations, feel free to contact me via email:
+                    <div class="center-button">
+                        <a href="mailto:sherishaikh2611@gmail.com" class="btn btn-primary">Contact</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
